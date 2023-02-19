@@ -7,7 +7,7 @@ pipeline {
     {
       steps
       {
-        sh 'g+ -o cs123 cs123_task5.cpp'
+        sh 'g++ -o cs123 cs123_task5.cpp'
       }
     }
     stage('Test')
